@@ -10,3 +10,10 @@ student_ages.push(36, 40)
 current_gpa.shift
 # Method "unshift" puts element(s) in front of array, moving other element(s)
 deposit_paid.unshift(true, false)
+=begin
+Index position is the position number of an element with an array.
+In my original student_ages array, 23 is index position 0, 18
+is index position 1, etc.  When I called the push method on this
+array and pushed elements 36 and 40 onto the end of the array,
+they became index positions 4 and 5, respectively.
+=end
