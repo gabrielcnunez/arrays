@@ -17,3 +17,8 @@ is index position 1, etc.  When I called the push method on this
 array and pushed elements 36 and 40 onto the end of the array,
 they became index positions 4 and 5, respectively.
 =end
+=begin
+Method "shuffle" returns a new array with elements shuffled
+around randomly, changing their index positions.
+=end
+turing_students.shuffle
